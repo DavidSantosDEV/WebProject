@@ -23,7 +23,6 @@
     z-index: 1;
     opacity: 1;
     color: white;
-    /*background-color: cornsilk;*/
   }
   .section a {
     position: absolute;
@@ -65,12 +64,9 @@
   }
   
   .color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: lightblue;
+    background-color: rgb(255, 0, 0);
     width: 100%;
-    opacity: 0.2;
+    opacity: 1;
   }
 
   .topnav {
