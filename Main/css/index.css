@@ -70,13 +70,11 @@
   }
 
   .right{
-    background-color: #ff9e2c;
-
     width: 50%;
   }
   .left{
-    background-color:green;
-
+    text-align: center;
+    justify-content: center;
     width: 50%;
   }
 
