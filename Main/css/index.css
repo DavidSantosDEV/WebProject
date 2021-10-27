@@ -10,20 +10,53 @@
   
   .section h1 {
     position: absolute;
-    top: 30%;
+    top: 30vh;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-20vh);
     text-align: center;
-    font-size: 6rem;
+    
+    font-size: 10vw;
+    font-family: "Roboto";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: white;
+    /*background-color: cornsilk;*/
+  }
+  .section a {
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-20vh);
+    text-align: center;
+    font-size: 200%;
     font-family: "Cookie";
     padding: 20px;
     margin: 15px;
     z-index: 1;
-    opacity: 0.7;
-    background-color: cornsilk;
+    opacity: 1;
+    color: white;
   }
   
-  .video-container {
+  video {
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .align--full, .align--wide {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+}
+.video-container {
     position: absolute;
     top: 0;
     left: 0;
