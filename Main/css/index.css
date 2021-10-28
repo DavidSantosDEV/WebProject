@@ -1,14 +1,59 @@
-.section {
+  .topnav {
+      display:flex;
+      align-items: center;
+      margin: 0 5% 0 5%;
+      padding: 0 2% 0 2%;
+      background-color: white;
+      overflow: hidden;
+      position:sticky;
+  }
+  
+  .left{
+      width:100%;
+  }
+
+  .right{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: flex-end;
+  }
+  
+  .menu{display:none;visibility:hidden;flex-direction:row;}
+  .menu a {padding: 14px 16px;text-decoration: none;font-size: 17px;}
+  .menu a:hover {background-color: darkgrey;color: white;transition: all .3s easy-in-out;}
+  .menu a.active {background-color: #aa0478;color: white;}
+  
+  #phone_menu{display:none;visibility:hidden;flex-direction:column;transition: all .3s easy-in-out;}
+  #phone_menu a {padding: 14px 16px;text-decoration: none;font-size: 17px;z-index:2;}
+  #phone_menu a:hover {background-color: darkgrey;color: white;transition: all .3s ease-in;}
+  #phone_menu a.active {background-color: #aa0478;color: white;}
+	
+  .container{height:100%;display:flex;align-items:center;justify-content:center;}
+  	
+  #checkbox-menu{position:absolute;opacity:0;height:22px;width:30px;z-index:1}
+  
+  label{cursor:pointer;position:absolute;display:block;height:22px;width:30px;}
+  
+  label span{position:absolute;display:block;height:5px;width:100%;border-radius:30px;background:#aa0478;transition:0.25s easy-in-out;}
+  
+  label span:nth-child(1){top:0;}
+  label span:nth-child(2){top:8px;}
+  label span:nth-child(3){top:16px;}
+  
+  #checkbox-menu:checked + label span:nth-child(1){transform:rotate(-45deg);top:8px;}
+  #checkbox-menu:checked + label span:nth-child(2){opacity:0;}
+  #checkbox-menu:checked + label span:nth-child(3){transform:rotate(45deg);top:8px;}
+  #checkbox-menu:checked + #phone_menu{display:flex;visibility:visible;}
+  
+  .section {
     /*display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;*/
   }
   
-  .section .content {
-  }
-  
-  .section h1 {
+  #Info_Section h1 {
     position: absolute;
     top: 25%;
     left:50%;
@@ -24,7 +69,7 @@
     /*background-color: cornsilk;*/
   }
   
-  .section p {
+  #Info_Section p {
     position: absolute;
     top:50%;
     left:50%;
@@ -40,7 +85,7 @@
     color: white;
   }
   
-  video {
+  .section video {
     /*left: 50%;*/
     min-height: 100%;
     min-width: 100%;
@@ -49,7 +94,7 @@
     transform: translate(-50%, 0%);*/
   }
   
-  .align--full, .align--wide {
+  .section .align--full, .align--wide {
     left: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
@@ -59,12 +104,12 @@
     width: 100vw;
     }
     
-  .video-container {
+  .section .video-container {
     position: relative;
     width: 100%;
     }
   
-  .color-overlay {
+  .section .color-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,42 +117,3 @@
     width: 100%;
     opacity: 0.2;
   }
-
-  .topnav {
-      display:flex;
-      align-items: center;
-      margin: 0 5% 0 5%;
-      padding: 0 2% 0 2%;
-      background-color: white;
-      overflow: hidden;
-      position:sticky;
-  }
-
-  .right{
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: flex-end;
-  }
-  
-  .right a {
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .right a:hover {
-    background-color: #ddd;
-    color: black;
-    transition: all .3s ease-in;;  
-  }
-  
-  .right a.active {
-    background-color: #aa0478;
-    color: white;
-  }
-  
-  .left{
-      width:100%;
-  }
-

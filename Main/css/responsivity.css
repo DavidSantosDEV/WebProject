@@ -1,34 +1,27 @@
 
-@media screen and (min-width: 1200px){
+@media only screen and (min-device-width: 1200px){
 
-	#Info_Profile .text-info-1{border-radius:25px 0 0 25px}	
-	#Info_Profile .text-info-2{border-radius:0}
-	#Info_Profile .text-info-3{border-radius:0}	
-	#Info_Profile .text-info-4{border-radius:0 25px 25px 0}
+	#Info_Section .h1{font-size:100px}	
 }
 
-@media screen and (min-width: 768px) and (max-width:1199px){
+@media only screen and (min-device-width: 768px) and (max-device-width:1199px){
 
-	#Info_Profile .text-info-1{border-radius:25px 0 0 0}	
-	#Info_Profile .text-info-2{border-radius:0}
-	#Info_Profile .text-info-3{border-radius:0 25px 0 0}	
-	#Info_Profile .text-info-4{border-radius:0 0 25px 25px}
+	#Info_Section .h1{font-size:80px}	
+
 }
 
-@media screen and (min-width: 576px) and (max-width:767px){
+@media only screen and (min-device-width: 576px) and (max-device-width:767px){
 
-	#Info_Profile .text-info-1{border-radius:25px 0 0 0}	
-	#Info_Profile .text-info-2{border-radius:0 25px 0 0}
-	#Info_Profile .text-info-3{border-radius:0 0 0 25px}	
-	#Info_Profile .text-info-4{border-radius:0 0 25px 0}
+	#Info_Section .h1{font-size:60px}
+	.menu {display:flex;visibility:visible;}
+	.container {display:none;visibility:hidden}
+
 }
 
-@media screen and (max-width: 575px) {
-	#Header_Profile ul{font-size:19px;list-style:none;line-height:1.25;padding-inline-start: 0px;
-}
+@media only screen and (max-device-width: 575px) {
 
-	#Info_Profile .text-info-1{border-radius:25px 25px  0 0}	
-	#Info_Profile .text-info-2{border-radius:0}
-	#Info_Profile .text-info-3{border-radius:0}	
-	#Info_Profile .text-info-4{border-radius:0 0 25px 25px}
+	#Info_Section .h1{font-size:40px}
+	.menu {display:none;visibility:hidden}
+	.container {display:flex;visibility:visible;}
+
 }
