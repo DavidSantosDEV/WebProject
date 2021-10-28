@@ -2,11 +2,16 @@
 @media only screen and (min-device-width: 1200px){
 
 	#Info_Section .h1{font-size:100px}	
+	.menu {display:flex;visibility:visible;}
+	.right .container{display:none;visibility:hidden;}
+	.container {display:none;visibility:hidden}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width:1199px){
 
-	#Info_Section .h1{font-size:80px}	
+	#Info_Section .h1{font-size:80px}
+	.menu {display:flex;visibility:visible;}
+	.right .container{display:none;visibility:hidden;}
 
 }
 
@@ -14,7 +19,7 @@
 
 	#Info_Section .h1{font-size:60px}
 	.menu {display:flex;visibility:visible;}
-	.container {display:none;visibility:hidden}
+	.right .container{display:none;visibility:hidden;}
 
 }
 
@@ -22,6 +27,6 @@
 
 	#Info_Section .h1{font-size:40px}
 	.menu {display:none;visibility:hidden}
-	.container {display:flex;visibility:visible;}
+	.right .container{display:flex;visibility:visible;}
 
 }

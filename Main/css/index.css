@@ -19,7 +19,7 @@
       justify-content: flex-end;
   }
   
-  .menu{display:none;visibility:hidden;flex-direction:row;}
+  .menu{display:flex;visibility:visible;flex-direction:row;}
   .menu a {padding: 14px 16px;text-decoration: none;font-size: 17px;}
   .menu a:hover {background-color: darkgrey;color: white;transition: all .3s easy-in-out;}
   .menu a.active {background-color: #aa0478;color: white;}
