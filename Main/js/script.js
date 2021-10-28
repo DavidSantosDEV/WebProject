@@ -1,3 +1,4 @@
+//Function to show phone menu (Work in progress)
 function showPhoneMenu() {
   var x = document.getElementById("phone_menu");
   if (x.Style.visibility === "hidden") {
