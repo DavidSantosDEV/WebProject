@@ -8,6 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/responsivity.css'>
     <link rel="icon" href="img/icon.png">
     <!--<script src='main.js'></script>-->
 </head>
@@ -15,35 +16,30 @@
 <body>
     <header>
         <div class="topnav">
-            <div class="left">
+            <a class="left">
                 <!--<a href="index.html">-->
                 <img src="img/longLogo.png" width="20%">
                 <!--</a>-->
-            </div>
-            <div class="right">
-                <nav>
-                    <a class="active" href="#home">Home</a>
-                    <a href="#news">Join us</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
-                </nav>
-            </div>
+            </a>
+            <nav class="right">
+				<a class="active" href="#home">Home</a>
+				<a href="#news">Join us</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+            </nav>
         </div>
     </header>
-    <div class="section align--full">
-        <h1>Fropple Studios</h1>
-        <a>Small indie development studio</a>
+    <section class="section align--full">
+		<div id="Info_Section" class="content">
+			<h1>Fropple Studios</h1>
+			<p>Small indie development studio</p>
+		</div>
         <div class="video-container">
-            <div class="color-overlay"></div>
             <video loop muted width="100%"><!--autoplay -->
                 <source src="vid/takeshi.mp4" type="video/mp4">
             </video>
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    </section>
 </body>
 
 </html>
