@@ -72,6 +72,10 @@ footer{
     display: flex;
 }
 
+/*.bottomnav .left a{
+    margin-bottom: 0;
+}*/
+
 .bottomnav .right a {
     float: left;
     color: white;
@@ -79,9 +83,20 @@ footer{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
+}
+
+.bottomnav p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 .bottomnav nav a:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+.bottomnav .left a:hover{
     background-color:whitesmoke;
     color: black;
 }
