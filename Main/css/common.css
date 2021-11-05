@@ -2,6 +2,11 @@
 /* This file is used for common things like Header and Footer 
 */
 
+.DefaultBody{
+    font: "Bebas-Regular";
+    src: url('font/Bebas-Regular.otf');
+}
+
 header{
     background-color: #558b2f;
 }
@@ -11,7 +16,6 @@ header{
     margin:0 auto;
     max-width: 1180px;
     max-height: 1180px;
-    /*background-color: white;*/
     overflow: hidden;
     position:sticky;
     top: 0;
@@ -20,7 +24,7 @@ header{
     display: flex;
 }
  
-.topnav a {
+.topnav .right a {
     float: left;
     color: white;
     text-align: center;
@@ -50,13 +54,14 @@ header{
 }
 
 footer{
+    position: relative;
     background-color: #558b2f;
     color:white;
 }
 
 .bottomnav{
     align-items: center;
-    margin: auto 0;
+    margin:auto auto 0 auto;
     max-width: 1180px;
     max-height: 1180px;
     overflow: hidden;
@@ -66,3 +71,34 @@ footer{
     z-index: 2;
     display: flex;
 }
+
+.bottomnav .right a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.bottomnav nav a:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+
+.SocialMedia{
+    list-style: none;
+    float: left;
+    margin: auto 0;
+}
+.SocialMedia li{
+    display: inline-block;
+}
+
+/*footer a{
+    /*float: right;
+    margin-left: auto;
+    margin-right: 0;
+    right: 0;
+    color:red;
+}*/
