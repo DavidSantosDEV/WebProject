@@ -5,6 +5,8 @@
 .DefaultBody{
     font: "Bebas-Regular";
     src: url('font/Bebas-Regular.otf');
+    background-color: whitesmoke;
+    color: black;
 }
 
 header{
@@ -26,7 +28,7 @@ header{
  
 .topnav .right a {
     float: left;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,6 +44,10 @@ header{
     background-color:whitesmoke;
     color: black;
 }
+.bottomnav .right a.active{
+    background-color:whitesmoke;
+    color: black;
+}
 
 .right{
     width: 50%;
@@ -54,9 +60,10 @@ header{
 }
 
 footer{
+    margin: auto auto 0 auto;
     position: relative;
     background-color: #558b2f;
-    color:white;
+    color:whitesmoke;
 }
 
 .bottomnav{
@@ -78,7 +85,7 @@ footer{
 
 .bottomnav .right a {
     float: left;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -86,7 +93,7 @@ footer{
 }
 
 .bottomnav p {
-    color: white;
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
     font-size: 17px;

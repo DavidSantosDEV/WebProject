@@ -1,3 +1,5 @@
+/*Index*/
+
 
 .section {
     position: relative;
@@ -11,7 +13,7 @@
   
   .text-video{
     position:absolute;
-    background-color: #558b2fb0;
+    background-color: #558b2fe1;
     z-index: 2;
     top: 45%;
     left:50%;
