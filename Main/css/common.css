@@ -64,6 +64,7 @@ footer{
     position: relative;
     background-color: #558b2f;
     color:whitesmoke;
+    box-shadow: 0 50vh 0 50vh #558b2f;
 }
 
 .bottomnav{
