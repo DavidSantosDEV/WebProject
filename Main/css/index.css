@@ -23,7 +23,7 @@ section{
 
 .OnTopImg{
   text-align: center;
-  background-color: royalblue;
+  background-color: #558b2fe1;
   position: absolute;
   z-index: 3;
   top: 45%;
@@ -31,6 +31,25 @@ section{
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
+
+.OnTopImg h1 {
+  /*position: absolute;
+  top: 25%;
+  left:50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: #1e2019 ;
+  */
+  
+  font-size: 40pt;
+  /*font-family: "Roboto";*/
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 1;
+  color: white;
+}
+
 .aBtn{
   color: red;
 }
