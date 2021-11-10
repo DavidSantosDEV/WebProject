@@ -4,11 +4,10 @@
 
 @font-face {
     font-family: Bebas;
-    src: url(font/Bebas-Regular.otf);
+    src: url(font/WinterLandByJd-Bold.ttf);
 }
 
 *{
-    font: Bebas;
     font-family: Bebas;
 }
 
