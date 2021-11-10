@@ -2,11 +2,29 @@
 /* This file is used for common things like Header and Footer 
 */
 
+@font-face {
+    font-family: Bebas;
+    src: url(font/Bebas-Regular.otf);
+}
+
+*{
+    font: Bebas;
+    font-family: Bebas;
+}
+
 .DefaultBody{
-    font: "Bebas-Regular";
-    src: url('font/Bebas-Regular.otf');
     background-color: whitesmoke;
     color: black;
+}
+
+.Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(121, 121, 121, 0.3);
 }
 
 header{
