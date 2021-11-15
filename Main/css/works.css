@@ -1,22 +1,31 @@
-section div{
+article div{
+    justify-content: center;
     display: flex;
     align-items: center;
-    color:black;
     text-align: center;
 }
 
+.align--full{
+    color:white;
+    background-color: lightslategray;
+}
+
 .GamePoster{
-    width: 60%;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
     /*padding-left: 17%;*/
 }
 
 .left-half {
-    
-    background-color:blanchedalmond;
+    background-color:rgb(54, 54, 54);
     padding-left: 0;
     left: 0;
     float: left;
     width: 50%;
+    text-align: center;
 }
   
 .right-half {
@@ -25,4 +34,33 @@ section div{
     right: 0px;
     width: 50%;
     float: right;
+    box-shadow: 0 50vh 0 0 #558b2f;
 }
+
+.ImgCont{
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ImgCont:hover .GamePoster {
+   opacity: 0.6;
+}
+  
+.ImgCont:hover .imgHoverCont {
+   opacity: 1;
+}
+.imgHoverCont{
+    z-index: 2;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    /*top: 50%;
+    right: 50%;
+    -ms-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);*/
+    text-align: center;
+}
+  
