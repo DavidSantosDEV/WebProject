@@ -1,4 +1,4 @@
-div{
+section div{
     display: flex;
     align-items: center;
     color:black;
@@ -11,6 +11,7 @@ div{
 }
 
 .left-half {
+    
     background-color:blanchedalmond;
     padding-left: 0;
     left: 0;
