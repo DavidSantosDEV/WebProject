@@ -1,0 +1,29 @@
+.TextSect {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+.TextSect p,
+a {
+    text-align: justify;
+}
+
+article {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.text-video {
+    color: whitesmoke;
+    font-size: 45pt;
+    position: absolute;
+    background-color: #00000025;
+    border-radius: 1rem;
+    z-index: 2;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
