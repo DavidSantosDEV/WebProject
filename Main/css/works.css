@@ -6,14 +6,15 @@ article div{
 }
 
 .GameText{
-  padding: 0 30% 0 30%;
+  padding: 0 20% 0 20%;
 }
 .GameText p,a{
   text-align: justify;
 }
 
 .align--full{
-    color:white;
+    color:black;
+    background-color: whitesmoke;
 }
 
 .GamePoster{
@@ -26,7 +27,6 @@ article div{
 }
 
 .left-half {
-    background-color:rgb(54, 54, 54);
     padding-left: 0;
     left: 0;
     float: left;
@@ -44,7 +44,6 @@ article div{
 }
 
 .right-half {
-    background-color:rgb(54, 54, 54);
     padding-right: 0;
     right: 0px;
     float: right;
