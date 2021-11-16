@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
     <header>
         <div class="topnav">
             <div class="left">
@@ -73,14 +74,14 @@
                 </div>
                 <br>
                 <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                    <span class="dot" onclick="currentSlide(6)"></span> 
-                    <span class="dot" onclick="currentSlide(7)"></span> 
-                  </div>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
                 <br>
             </article>
         </div>
@@ -94,10 +95,10 @@
                         <p>
                             In Development, Coming 2022.
                         </p>
-                        
+
                     </div>
                 </div>
-                
+
                 <h1>Our Next Project</h1>
                 <p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life.</p>
             </article>
@@ -148,36 +149,8 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
+    <script type="text/javascript" src="slidescript.js">
     </script>
-
 </body>
 
 </html>
