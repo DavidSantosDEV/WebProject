@@ -5,6 +5,13 @@ article div{
     text-align: center;
 }
 
+.GameText{
+  padding: 0 30% 0 30%;
+}
+.GameText p,a{
+  text-align: justify;
+}
+
 .align--full{
     color:white;
 }
@@ -61,6 +68,9 @@ article div{
     width: 60%;
     margin: 0 auto;
     position: relative;
+
+    justify-content: center;
+    display: flex;
 }
 
 .ImgCont:hover .GamePoster {

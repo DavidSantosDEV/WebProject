@@ -10,11 +10,12 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/works.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
     <link rel="icon" href="img/IconVector.png">
+
     <!--<script src='main.js'></script>-->
 </head>
 
 <body>
-    
+
     <header>
         <div class="topnav">
             <div class="left">
@@ -34,56 +35,61 @@
     </header>
     <section class="align--full">
         <div class="left-half">
-            <article>
-                <p></p>
-                <div class="ImgCont">
-                    <img src="img/poster_DOL.jpg" class="GamePoster">
-                    <div class="imgHoverCont">
-                        <a href="https://fropplestudios.itch.io/doors-of-life">
-                            <img src="img/AvailableOnItch.svg" style="width: 40%;">
-                        </a>
-                    </div>
+
+            <br>
+            <div class="ImgCont">
+                <img src="img/poster_DOL.jpg" class="GamePoster">
+                <div class="imgHoverCont">
+                    <a href="https://fropplestudios.itch.io/doors-of-life">
+                        <img src="img/AvailableOnItch.svg" style="width: 40%;">
+                    </a>
                 </div>
+            </div>
+            <article class="GameText">
                 <h1>Doors of Life</h1>
+                <p>I have to do filler text for this thing I guess, so, how's life? Going pretty ok arround here,
+                    but you know, the sun is just going to explode and all our lives meant nothing in the end.</p>
                 <p>Weekends don't count unless you spend them doing something completely pointless.</p>
-                <!-- SLIDER-->
-                <div class="SlideShowCont">
-                    <div class="mySlides fade">
-                        <img src="img/InGame1.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame2.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame3.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame4.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame5.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame6.png" style="width:60%">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/InGame7.png" style="width:60%">
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
-                    <span class="dot" onclick="currentSlide(6)"></span>
-                    <span class="dot" onclick="currentSlide(7)"></span>
-                </div>
-                <br>
             </article>
+
+            <!-- SLIDER-->
+            <div class="SlideShowCont">
+                <div class="mySlides fade">
+                    <img src="img/InGame1.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame2.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame3.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame4.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame5.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame6.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/InGame7.png" style="width:60%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+            <br>
+
         </div>
         <div class="vl"></div>
         <div class="right-half">
@@ -115,9 +121,9 @@
             </div>
             <div class="right">
                 <nav>
-                    <a class="active" href="#home">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="JoinUs.html">Join us</a>
-                    <a href="Works.html">Our Works</a>
+                    <a class="active" href="Works.html">Our Works</a>
                     <a href="#about">About</a>
                 </nav>
                 <ul class="SocialMedia">
@@ -149,8 +155,8 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="slidescript.js">
-    </script>
+
+    <script type="text/javascript" src="js/slideshow.js"></script>
 </body>
 
 </html>
