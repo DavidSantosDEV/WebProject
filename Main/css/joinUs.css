@@ -1,0 +1,123 @@
+#TextJoin{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+background-color: aliceblue;
+}
+
+
+#ApplyForm{
+    background-color: rgb(0, 134, 196);
+
+
+}
+
+#BaseInfo {
+    float: left;
+}
+
+
+
+/*
+#PerInfo, #fsQuest{
+    border-width: 1px;
+    border-color: silver;
+    font-size: 10pt;
+}
+#PerInfo{
+    border-style: solid;
+float: left;
+    width: 90%;
+    margin-left: 5%;
+}
+#fsQuest{
+    border-style: dotted;
+    float: left;
+    width:90%;
+    margin-top: 9px;
+    margin-left: 5%;
+    
+    
+}
+
+#PerInfo label{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#PerInfo input{
+    height: 20px;
+}
+#PerInfo select{
+    height: 28px;
+}
+#PerInfo input, #PerInfo select{
+    display: block;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+*/
+#idName, #fsTecArea, #fsQuest{
+    width: calc(100% - 160px);
+}
+
+#fsTecArea label{
+margin-top: 3px;
+
+}
+
+
+#fsGender{
+    clear: both;
+    border:0;
+    border: 1px dashed silver;
+}
+#fsGender input{
+    height: 28px;
+    float:left;
+    margin-left: 30px;
+}
+#fsGender label{
+    height: 30px;
+    margin-top:5px;
+    text-align: left;
+}
+
+#fsQuest p{
+    margin-left: 0px;
+}
+#fsQuest textarea{
+    height: 20px;
+    margin-left: 0px;
+    height: 200%;
+    display: block;
+    float:left;
+    resize: none;
+}
+#fsQuest label{
+    display: block;
+    height: 30px;
+    margin-left: 45px;
+}
+#buttons{
+    clear: both;
+    text-align: center;
+}
+#buttons input{
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 130px;
+    height: 35px;
+    border: 2px solid #4D7E00;
+    font-size: 12pt;
+    border-radius: 5px;
+    background-color:silver;
+}
