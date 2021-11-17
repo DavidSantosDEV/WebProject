@@ -4,8 +4,7 @@
     text-align: center;
 }
 
-.TextSect p,
-a {
+.TextSect p, a {
     text-align: justify;
 }
 
@@ -18,12 +17,15 @@ article {
     color: whitesmoke;
     font-size: 45pt;
     position: absolute;
-    background-color: #00000025;
+    background-color: #0000007a;
     border-radius: 1rem;
     z-index: 2;
-    top: 35%;
+    top: 30%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.text-video h1{
+    margin: 0;
 }
