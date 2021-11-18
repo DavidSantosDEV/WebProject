@@ -40,7 +40,7 @@
 
         </div>
         <div class="ImageDown">
-            <img src="img/sillouette.png" alt="backgroudImage" style="width: 100%;">
+            <img src="img/Promo.png" alt="backgroudImage" style="width: 100%;">
         </div>
 
     </section>
@@ -59,11 +59,14 @@
 
 
     <section id="ApplyForm">
-        <h2>Registration</h2>
 
-        <p>
-            Apply here! <span class="emph"> We will probably never respond! </span>!
-        </p>
+        <div class="FormText">
+            <h2>Registration</h2>
+
+            <p>
+                Apply here! <span class="emph"> We will probably never respond! </span>!
+            </p>
+        </div>
 
         <form action="#" method="post">
             <fieldset id="PerInfo">
@@ -72,9 +75,9 @@
                 <div class="row">
                     <div class="col-25">
                         <label for="idName">Name:</label>
-                        <div class="col-75">
-                            <input type="text" id="IdName" name="Name" placeholder="Insert Name">
-                        </div>
+
+                        <input type="text" id="IdName" name="Name" placeholder="Insert Name">
+
 
                     </div>
 
@@ -82,9 +85,9 @@
                 <div class="row">
                     <div class="col-25">
                         <label for="idEmail"> Email:</label>
-                        <div class="col-75">
-                            <input type="text" id="IdEmail" name="Name" placeholder="Insert Email">
-                        </div>
+
+                        <input type="text" id="IdEmail" name="Name" placeholder="Insert Email">
+
 
                     </div>
 
@@ -102,17 +105,20 @@
                     </div>
                 </div>
 
-
-                <fieldset id="fsGender">
-                    <legend>Gender</legend>
-                    <input type="radio" name="gender" id="idGenderM" value="M" checked>
-                    <label for="idGenderM">Male</label>
-                    <input type="radio" name="gender" id="idGenderF" value="F">
-                    <label for="idGenderF">Female</label>
-                    <input type="radio" name="gender" id="idGenderO" value="O">
-                    <label for="idGenderO">Other</label>
-                </fieldset>
+                <div class="row">
+                    <div class="col-25">
+                        <fieldset id="fsGender">
+                            <legend>Gender</legend>
+                            <input type="radio" name="gender" id="idGenderM" value="M" checked>
+                            <label for="idGenderM">Male</label>
+                            <input type="radio" name="gender" id="idGenderF" value="F">
+                            <label for="idGenderF">Female</label>
+                            <input type="radio" name="gender" id="idGenderO" value="O">
+                            <label for="idGenderO">Other</label>
+                        </fieldset>
             </fieldset>
+            </div>
+            </div>
             <fieldset id="fsQuest">
                 <p>Why would you be an indispensible menber you filthy scum?</p>
                 <textarea rows="6" cols="200" name="MenText" id="idMenText"

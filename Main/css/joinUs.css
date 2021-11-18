@@ -1,3 +1,8 @@
+body{
+    background-color: aliceblue;
+}
+
+
 #TextJoin{
     padding-left: 30%;
     padding-right: 30%;
@@ -6,48 +11,65 @@
 background-color: aliceblue;
 }
 
+.Text-Image{
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #f1d1fde1;
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+  }
 
 #ApplyForm{
     background-color: rgb(0, 134, 196);
 
 
 }
+ 
+.FormText{
 
-#BaseInfo {
-    float: left;
+    margin-left: 20px;
 }
 
 
 
-/*
+
+
 #PerInfo, #fsQuest{
     border-width: 1px;
     border-color: silver;
     font-size: 10pt;
 }
 #PerInfo{
+    display: inline;
     border-style: solid;
-float: left;
+    
     width: 90%;
     margin-left: 5%;
+
 }
+
 #fsQuest{
     border-style: dotted;
-    float: left;
+    display: inline;
     width:90%;
     margin-top: 9px;
     margin-left: 5%;
     
     
 }
+/*Im so confused*/
 
+/*
 #PerInfo label{
-    display: block;
-    float: left;
     width: 140px;
     height: 24px;
     line-height: 24px;
-    text-align: right;
+    text-align: left;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
@@ -56,50 +78,79 @@ float: left;
     height: 20px;
 }
 #PerInfo select{
-    height: 28px;
+    height: 30px;
 }
 #PerInfo input, #PerInfo select{
-    display: block;
+    display: inline-block;
     border: 1px solid black;
     margin-top: 3px;
 }
 */
-#idName, #fsTecArea, #fsQuest{
-    width: calc(100% - 160px);
+
+#IdEmail, #IdName {
+
+    width: calc(100% - 100px);
+    margin-left: 5px;
+}
+
+#fsTecArea, #fsQuest{
+    width: calc(100% - 140px);
 }
 
 #fsTecArea label{
 margin-top: 3px;
 
 }
-
+#fsTecArea input{
+    margin-top: 3px;
+    
+    }
 
 #fsGender{
     clear: both;
     border:0;
     border: 1px dashed silver;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
+
 #fsGender input{
-    height: 28px;
-    float:left;
     margin-left: 30px;
 }
 #fsGender label{
-    height: 30px;
-    margin-top:5px;
+    display: inline-block;
+    
     text-align: left;
 }
+*/
+
+/*Trying if this will fix the erros*/
+
+
+.col-25 {
+    display: inline;
+  }
+  
+
+  /* Used to make all the top margins*/
+  .row:after {
+    margin-top: 20px;;
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 #fsQuest p{
-    margin-left: 0px;
+    margin-left: 10px;
 }
 #fsQuest textarea{
-    height: 20px;
     margin-left: 0px;
-    height: 200%;
+    height: 0%;
     display: block;
     float:left;
-    resize: none;
+    resize:none;
 }
 #fsQuest label{
     display: block;
