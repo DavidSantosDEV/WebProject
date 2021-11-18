@@ -1,0 +1,155 @@
+
+/* This file is used for common things like Header and Footer 
+*/
+
+@font-face {
+    font-family: Bebas;
+    src: url(font/WinterLandByJd-Bold.ttf);
+}
+
+*{
+    font-family: Bebas;
+}
+
+.DefaultBody{
+    background-color: rgb(54, 54, 54);
+    color: black;
+}
+
+.Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(121, 121, 121, 0.1);
+}
+
+header{
+    background-color: #558b2f;
+}
+  
+.topnav {
+    align-items: center;
+    margin:0 auto;
+    max-width: 1180px;
+    max-height: 1180px;
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+}
+ 
+.topnav .right a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color:whitesmoke;
+    color: black;
+}
+.bottomnav .right a.active{
+    background-color:whitesmoke;
+    color: black;
+}
+
+.right{
+    width: 50%;
+}
+  
+.left{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+footer{
+    margin: auto auto 0 auto;
+    position: relative;
+    background-color: #558b2f;
+    color:whitesmoke;
+    box-shadow: 0 50vh 0 50vh #558b2f;
+}
+
+.bottomnav{
+    align-items: center;
+    margin:auto auto 0 auto;
+    max-width: 1180px;
+    max-height: 1180px;
+    overflow: hidden;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.bottomnav .left a{
+    margin-bottom: 0;
+}*/
+
+.bottomnav .right a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bottomnav p {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bottomnav nav a:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+.bottomnav .left a:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+
+.SocialMedia{
+    list-style: none;
+    float: left;
+    margin: auto 0;
+}
+.SocialMedia li{
+    display: inline-block;
+}
+
+.align--full, .align--wide {
+    left: 50%;
+    margin-left: -50%;
+    margin-right: -50%;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100%; /*100vw*/
+    overflow: hidden;
+}
+/*footer a{
+    /*float: right;
+    margin-left: auto;
+    margin-right: 0;
+    right: 0;
+    color:red;
+}*/
