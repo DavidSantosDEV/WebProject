@@ -1,14 +1,13 @@
 body{
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
-
 
 #TextJoin{
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 2%;
     padding-bottom: 2%;
-background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 .Text-Image{
@@ -126,7 +125,7 @@ margin-top: 3px;
 }
 */
 
-/*Trying if this will fix the erros*/
+/*Trying if this will fix the errors*/
 
 
 .col-25 {
@@ -161,6 +160,11 @@ margin-top: 3px;
     clear: both;
     text-align: center;
 }
+
+#buttons input:hover{
+    background-color: white;
+}
+
 #buttons input{
     display: inline-block;
     margin-top: 35px;
