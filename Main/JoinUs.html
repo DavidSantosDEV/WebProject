@@ -37,8 +37,6 @@
         <div class="Overlay"></div>
         <div class="Text-Image">
             <h1>Join Us!</h1>
-            <p></p>
-
         </div>
         <div class="ImageDown">
             <img src="img/Promo.png" alt="backgroudImage" style="width: 100%;">
@@ -49,88 +47,88 @@
 
 
     <section class="align--full">
-        <article id="TextJoin">
-
+        <article class="TextJoin">
             <h2>Why Join Us?</h2>
-            <p>We will help you getaway with MURDER! We are the law just fucking try us!</p>
+            <p>We will help you get away with MURDER! We are the law just try us!</p>
             <p>There's a cadaver in the 3rd road of cranberry street, dont ask me how we know we just do.</p>
             <p>It's for HIM! Our lord! He needs fresh food.</p>
         </article>
     </section>
 
+    <hr>
 
     <section id="ApplyForm">
+        <br>
+        <div class="AlignCenter">
+            <div class="FormText">
+                <h2>Registration</h2>
+                <p>
+                    Apply here! <span class="emph"> We will probably never respond! Feel free to try anyway.</span>
+                </p>
+            </div>
+            <br>
+            <form action="#" method="post">
+                <fieldset id="PerInfo">
+                    <legend>Personal Information</legend>
 
-        <div class="FormText">
-            <h2>Registration</h2>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="idName">Name:</label>
 
-            <p>
-                Apply here! <span class="emph"> We will probably never respond! </span>!
-            </p>
+                            <input type="text" id="IdName" name="Name" placeholder="Insert Name">
+
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="idEmail"> Email:</label>
+
+                            <input type="text" id="IdEmail" name="Name" placeholder="Insert Email">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fsTecArea"> Technical Area: </label>
+                            <select name="TecArea" id="fsTecArea">
+                                <option value="CArt">Concept Artist</option>
+                                <option value="TArt">Technical Artist</option>
+                                <option value="GEngi">Gameplay Engineer</option>
+                                <option value="EEngi">Engine Engineer</option>
+                                <option value="SpecAp">Speculative Application</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <fieldset id="fsGender">
+                                <legend>Gender</legend>
+                                <input type="radio" name="gender" id="idGenderM" value="M" checked>
+                                <label for="idGenderM">Male</label>
+                                <input type="radio" name="gender" id="idGenderF" value="F">
+                                <label for="idGenderF">Female</label>
+                                <input type="radio" name="gender" id="idGenderO" value="O">
+                                <label for="idGenderO">Other</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="fsQuest">
+                    <p>Tell us why you would be an indispensible member of our disposable team?</p>
+                    <textarea rows="6" style="width: 100%;" name="MenText" id="idMenText"></textarea>
+                </fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Submit" id="btS">
+                    <input type="reset" value="Reset" id="btR">
+                </div>
+            </form>
         </div>
 
-        <form action="#" method="post">
-            <fieldset id="PerInfo">
-                <legend>Personal Information you sussy bakas </legend>
-
-                <div class="row">
-                    <div class="col-25">
-                        <label for="idName">Name:</label>
-
-                        <input type="text" id="IdName" name="Name" placeholder="Insert Name">
-
-
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="idEmail"> Email:</label>
-
-                        <input type="text" id="IdEmail" name="Name" placeholder="Insert Email">
-
-
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="fsTecArea"> Technical Area </label>
-                        <select name="TecArea" id="fsTecArea">
-                            <option value="CArt">Concept Artist</option>
-                            <option value="TArt">Technical Artist</option>
-                            <option value="GEngi">Gameplay Engineer</option>
-                            <option value="EEngi">Engine Engineer</option>
-                            <option value="SpecAp">Speculative Application</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-25">
-                        <fieldset id="fsGender">
-                            <legend>Gender</legend>
-                            <input type="radio" name="gender" id="idGenderM" value="M" checked>
-                            <label for="idGenderM">Male</label>
-                            <input type="radio" name="gender" id="idGenderF" value="F">
-                            <label for="idGenderF">Female</label>
-                            <input type="radio" name="gender" id="idGenderO" value="O">
-                            <label for="idGenderO">Other</label>
-                        </fieldset>
-                    </div>
-                </div>
-            </fieldset>
-            
-            <fieldset id="fsQuest">
-                <p>Tell us why you would be an indispensible member of our disposable team?</p>
-                <textarea rows="6" cols="200" name="MenText" id="idMenText"
-                    placeholder="I will fuck your mom"></textarea>
-            </fieldset>
-            <div id="buttons">
-                <input type="submit" value="Submit" id="btS">
-                <input type="reset" value="Reset" id="btR">
-            </div>
-        </form>
     </section>
     <footer>
         <!-- Repeat information from header and add ©FroppleStudios Privacy Policy -->

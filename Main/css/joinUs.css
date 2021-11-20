@@ -2,12 +2,17 @@ body{
     background-color: whitesmoke;
 }
 
-#TextJoin{
-    padding-left: 30%;
-    padding-right: 30%;
+.TextJoin{
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: whitesmoke;
+    text-align: justify;
+}
+
+.TextJoin h2{
+    text-align: center;
 }
 
 .Text-Image{
@@ -15,25 +20,28 @@ body{
     border-radius: 2rem;
     background-color: #f1d1fde1;
     position: absolute;
+    padding: auto;
     z-index: 3;
     top: 45%;
     left:50%;
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    font-size: 20px;
-  }
-
-#ApplyForm{
-    background-color: rgb(0, 134, 196);
-
-
+    
+}
+.Text-Image h1{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60pt;
 }
  
-.FormText{
-
+/*.FormText{
     margin-left: 20px;
+}*/
+.FormText{
+    text-align: center;
 }
-
 
 
 
@@ -46,45 +54,19 @@ body{
 #PerInfo{
     display: inline;
     border-style: solid;
-    
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
-
 }
 
 #fsQuest{
     border-style: dotted;
     display: inline;
-    width:90%;
+    width:100%;
     margin-top: 9px;
     margin-left: 5%;
     
     
 }
-/*Im so confused*/
-
-/*
-#PerInfo label{
-    width: 140px;
-    height: 24px;
-    line-height: 24px;
-    text-align: left;
-    margin-top: 3px;
-    margin-left: 3px;
-    margin-right: 3px;
-}
-#PerInfo input{
-    height: 20px;
-}
-#PerInfo select{
-    height: 30px;
-}
-#PerInfo input, #PerInfo select{
-    display: inline-block;
-    border: 1px solid black;
-    margin-top: 3px;
-}
-*/
 
 #IdEmail, #IdName {
 
@@ -92,9 +74,9 @@ body{
     margin-left: 5px;
 }
 
-#fsTecArea, #fsQuest{
+/*#fsTecArea, #fsQuest{
     width: calc(100% - 140px);
-}
+}*/
 
 #fsTecArea label{
 margin-top: 3px;
@@ -159,6 +141,7 @@ margin-top: 3px;
 #buttons{
     clear: both;
     text-align: center;
+    margin-left: 5%;
 }
 
 #buttons input:hover{
@@ -175,4 +158,9 @@ margin-top: 3px;
     font-size: 12pt;
     border-radius: 5px;
     background-color:silver;
+}
+
+.AlignCenter{
+    padding-left: 25%;
+    padding-right: 25%;
 }

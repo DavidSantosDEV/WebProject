@@ -13,7 +13,7 @@ article {
     padding-right: 25%;
 }
 
-.text-video {
+/*.text-video {
     color: whitesmoke;
     font-size: 45pt;
     position: absolute;
@@ -25,7 +25,20 @@ article {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
+}*/
+
+.text-video{
+    position:absolute;
+    background-color: #558b2fe1;
+    border-radius: 2rem;
+    z-index: 2;
+    top: 25%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
 .text-video h1{
     margin: 0;
     font-size: 60pt;

@@ -96,36 +96,6 @@ section{
   text-align: center;
 }
 
-.videosect h1 {
-  /*position: absolute;
-  top: 25%;
-  left:50%;
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  background-color: #1e2019 ;
-  */
-  
-  font-size: 40pt;
-  /*font-family: "Roboto";*/
-  padding: 20px;
-  margin: 15px;
-  z-index: 1;
-  opacity: 1;
-  color: white;
-}
-.videosect a,p {
-  /*position: absolute;
-  top:50%;
-  left:50%;
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%, -50%);*/
-  font-size: 20pt;
-  /*font-family: "Cookie";*/
-  z-index: 1;
-  opacity: 1;
-  color: white;
-}
-
 video {
   /*left: 50%;*/
   min-height: 100%;

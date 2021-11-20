@@ -146,10 +146,28 @@ footer{
     width: 100%; /*100vw*/
     overflow: hidden;
 }
-/*footer a{
-    /*float: right;
-    margin-left: auto;
-    margin-right: 0;
-    right: 0;
-    color:red;
-}*/
+
+.videosect{
+    overflow: hidden;
+}
+
+.videosect h1 {
+    font-size: 40pt;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+    color: white;
+}
+
+.videosect p {
+    /*position: absolute;
+    top:50%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);*/
+    font-size: 20pt;
+    z-index: 1;
+    opacity: 1;
+    color: white;
+}
