@@ -1,3 +1,22 @@
-.content{
+body{
+    background-color: whitesmoke;
+}
+.content h1{
     font-size: 64px;
+    text-align: justify;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+h3 >a{
+    font-size: 30px;
+    text-decoration: none;
+    color: tomato;
+}
+
+.CenterThis{
+    margin-left: 25%;
+    margin-right: 25%;
 }
