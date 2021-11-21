@@ -3,7 +3,8 @@ body{
 }
 .content h1{
     font-size: 64px;
-    text-align: justify;
+    text-align: center;
+    margin: 0;
 }
 
 .content p{
@@ -16,7 +17,30 @@ h3 >a{
     color: tomato;
 }
 
+a{
+    text-decoration: none;
+}
+
+p > a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+p > a:link{
+    color: black;
+    text-decoration: none;
+}
+
 .CenterThis{
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.Text{
+    overflow: hidden;
+    padding: 10%;
+    background-color: rgba(245, 245, 245, 1);
+    text-align: center;
+    border: 0;
+    border-radius: 5rem;
 }
